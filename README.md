@@ -2,8 +2,17 @@
 Install the depedency in requirment.txt 
 
 !pip install *requirement.txt
+
+We aim to de-identify medical texts from the Indian Medical Institute. We initially identify the The present study takes a step towards answering this imminent need. Using a dataset of fully de-identified 99 discharge summaries obtained under Institutional Review Board (IRB) approval from the Sanjay Gandhi Post Graduate Institute of Medical Sciences (SGPGIMS), Lucknow, India, the study evaluates language models (LMs) for the task of de-identification; further, commercially available de-identification solutions are evaluated. Hereafter, we refer to this dataset as the Indian Clinical Discharge Summaries (ICDSR, subscript R refers to real) dataset. Given the paucity of clinical data, the study also evaluates Large Language Models (LLMs) on the task of generating synthetic clinical texts for training de-identification models. Critically, the study highlights the existence of several personal identifiable information (PII) elements in the ICDSR dataset that are unique to the language use and cultural practices in India. It is unlikely that the existing de-identification solutions have been trained to recognize these unique PII elements, and therefore, their detection may be unreliable. In a nutshell, we make the following contributions:
+• We introduce a new dataset (Indian Clinical Discharge Summaries (ICDSR)) obtained from an Indian hospital and evaluate the performance of PI-RoBERTa model (PI-RoBERTa) (fine-tuned on non-Indian clinical summaries) on ICDSR for the task of De-Identification. Our experiments show poor cross-institutional performance. Experiments with existing commercial off-the-shelf clinical de-identification systems show similar trends.
+• To overcome the paucity of Indian clinical data, we generate synthetic summaries using LLMs (Gemini (Team et al., 2023), Gemma(Team et al., 2024), Mistral (Jiang et al., 2023), and Llama3 (Touvron et al., 2023)) via In-Context learning (ICL). Further, the synthetic summaries are used to train PI-RoBERTa for de-identification on ICDSR. Results show significant improvement in the performance of the de-identification system.
 # Preprocessing
 We have five datasets: n2c2 2006, n2c2 2014, ICDS-R (real dataset from SGPGI), ICDS-G(l) (Llama-generated discharge summaries), and ICDS-G(g) (Gemini-generated discharge summaries). The Preprocessing folder contains preprocessing scripts for all the datasets.
+
+# PII Detection using commercial tools and LLMs
+
+We used LLMs (Llama-3-8B, Gemma-1.1-7b-it, Mistral-7B-Instruct-v0.1) and commercial tools (AWS Comprehend Medical API, GCP's Inspect) to detect PII on ICDS-R and evaluated their performance.
+
 
 # Analysis and Comparision of Datasets
 
@@ -16,10 +25,6 @@ We have generated two datasets using in-context learning. We utilized Gemini-pro
 # Inter Annotator Agreement
 
 
-
-# PII Detection using commercial tools and LLMs
-
-We used LLMs (Llama-3-8B, Gemma-1.1-7b-it, Mistral-7B-Instruct-v0.1) and commercial tools (AWS Comprehend Medical API, GCP's Inspect) to detect PII on ICDS-R and evaluated their performance.
 
 # Transfer learning
 

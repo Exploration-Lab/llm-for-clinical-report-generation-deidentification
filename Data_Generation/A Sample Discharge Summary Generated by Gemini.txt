@@ -1,0 +1,63 @@
+
+
+865345596
+GCPH
+201984280
+583659475
+466864344
+01/9/2024 1:00:00 PM
+Discharge Summary
+Primary Care Physician
+Dr. Arpita Chatterjee
+436090774
+07389593093
+arpitachatterjee@cardiothoracicsurgeon.com
+Admitted on
+19/12/2023
+Discharged on
+03/1/2024
+Patient Name
+Mr. Vamsi Krishna
+600322842
+Age/Sex
+52 years old, Male
+Address
+47, R.K. Puram, Hassan - 573201, Karnataka
+08156776500
+vamsikrishna@gmail.com
+Diagnosis at Discharge
+SECONDARY HYPERPARATHYROIDISM
+HYPERCALCEMIA 
+VITAMIN D DEFICIENCY
+CHONDROCALCINOSIS
+PRESENT ILLNESS
+Mr. Vamsi Krishna, a 52-year-old male patient, is admitted to our hospital with complaints of generalized weakness, fatigue, and bone pain. He has a history of hypertension, type 2 diabetes mellitus, and hyperparathyroidism. He has been on treatment for these conditions, but his symptoms have worsened in the past few months. On examination, he was found to have dry skin, brittle nails, and tenderness on palpation of bones. His blood tests showed elevated levels of calcium, parathyroid hormone, and alkaline phosphatase. His vitamin D levels were low. A diagnosis of secondary hyperparathyroidism and vitamin D deficiency was made.
+HOSPITAL COURSE
+During his hospital stay, the patient was given intravenous fluids and electrolytes to correct his dehydration and electrolyte imbalance. He was also given calcium supplements and vitamin D. His parathyroid hormone levels gradually decreased, and his symptoms improved. He was discharged with instructions to follow up with his primary care physician and to continue taking his medications.
+INSTRUCTIONS AT DISCHARGE
+Medications
+Take calcium supplements (1,000 mg elemental calcium daily) and vitamin D supplements (1,000 IU daily).
+Continue taking your medications for hypertension and type 2 diabetes mellitus.
+Lifestyle Modifications
+Get regular exercise.
+Eat a healthy diet that is rich in calcium and vitamin D.
+Avoid smoking and alcohol consumption.
+Follow-Up Care
+Follow up with your primary care physician in 4 weeks.
+If your symptoms worsen or if you have any new symptoms, please seek medical attention immediately.
+DIET
+The patient should eat a healthy diet that is rich in calcium and vitamin D. Good sources of calcium include dairy products, dark leafy greens, and fortified foods. Good sources of vitamin D include fatty fish, eggs, and fortified foods. The patient should also avoid smoking and alcohol consumption.
+ACTIVITY
+The patient should get regular exercise. Exercise helps to strengthen bones and prevent falls. The patient should start slowly and gradually increase the intensity and duration of his exercise program.
+OTHER
+The patient should avoid smoking and alcohol consumption. Smoking and alcohol can damage bones and worsen the symptoms of hyperparathyroidism.
+EDUCATION
+The patient was educated about his condition and the importance of following his treatment plan. He was also given information about the resources available to him, including support groups and online resources.
+PROGNOSIS
+The prognosis for patients with secondary hyperparathyroidism and vitamin D deficiency is generally good. With proper treatment, most patients can manage their condition and live a full and active life.
+Sincerely,
+Dr. Arpita Chatterjee
+436090774
+07389593093
+arpitachatterjee@cardiothoracicsurgeon.com
+
