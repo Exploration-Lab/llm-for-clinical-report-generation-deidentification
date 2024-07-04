@@ -1,7 +1,7 @@
 # LLM for Clinical Report Generation-Deidentification
-Install the depedency in requirment.txt 
+Install the depedency in requirement.txt 
 
-!pip install *requirement.txt
+pip install -r requirement.txt
 
 ## Main Contribution
 Our contributions can be summarized as below:
