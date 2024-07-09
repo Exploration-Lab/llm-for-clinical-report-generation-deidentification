@@ -17,6 +17,9 @@ Our contributions can be summarized as below:
 • To overcome the paucity of Indian clinical data, we generate synthetic summaries using LLMs Gemini , Gemma, Mistral , and Llama3 via In-Context learning (ICL). Further, the synthetic summaries are used to train PI-RoBERTa for de-identification on ICDSR. Results show significant improvement in the performance of the de-identification system.
 
 ## Results
-![alt text](image.png)
+![alt text](results1.png)
+![alt text](results2.png)
+![alt text](results3.png)
+The F1 scores for PHI entities, including the overall micro average F1, macro average F1, and weighted average F1 for different combinations of training and test sets.
 
 ## Citation
