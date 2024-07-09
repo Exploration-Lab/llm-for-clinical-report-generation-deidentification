@@ -20,6 +20,8 @@ Our contributions can be summarized as below:
 ![alt text](results1.png)
 ![alt text](results2.png)
 ![alt text](results3.png)
+
+
 The F1 scores for PHI entities, including the overall micro average F1, macro average F1, and weighted average F1 for different combinations of training and test sets.
 
 ## Citation
