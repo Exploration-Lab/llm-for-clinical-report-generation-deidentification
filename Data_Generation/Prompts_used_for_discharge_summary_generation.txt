@@ -1,0 +1,29 @@
+Gemini Prompt:
+  Generate discharge summaries for Indian patients, capturing the essence of healthcare in India. The summaries should integrate conventional medical treatments with 
+  traditional remedies, reflecting the holistic approach embraced by Indian healthcare systems. Incorporate prevalent Indian health conditions, treatments, and culturally 
+  relevant follow-up care instructions. To ensure authenticity, each summary should include distinct patient details like name, age, address, contact information, hospital,
+   doctor, and ID. Include prevalent diseases in India such as Tuberculosis (TB), Diabetes, Cardiovascular Diseases, Respiratory Infections, Hypertension, Dengue Fever, 
+   Malaria, Hepatitis, Chronic Kidney Disease (CKD), Cancer, Typhoid Fever, Cholera, HIV/AIDS, Japanese Encephalitis, Leptospirosis, Rabies, Tuberculosis of the Central 
+   Nervous System (CNS TB), Rheumatic Heart Disease, Iron-Deficiency Anemia, and Chikungunya. Also, laboratory test reports of the chosen disease should be included. 
+   Ensure the format of generated discharge summaries is similar to the summary given in the prompt, i.e., in XML format.  
+        Example: Patient Summary: <discharge summary>  
+        
+        Generate the summaries that have a minimum of 2048 words. Ensure there is consistent consistency between the doctor's name, patient name, drug-disease, etc.
+
+Llama-3-8B Prompt:
+    Generate an extensive discharge summary of at least 2048 words tailored for Indian patients. To ensure authenticity, the generated summary must include distinct 
+    patient-specific details like name, age, address, contact information, hospital name, doctor name, and unique ID. Maintain coherence across all the elements, 
+    doctor's name, patient’s identity, medications, diseases, etc. Ensure all the PHI (personal health information) elements are properly annotated to maintain privacy 
+    and authenticity.
+        
+    The generated discharge summary should be XML-formatted with PHI annotations. The generated summaries should include following sections:\ Admission Details, Diagnosis
+    / Chief Complaints, Allergies, Physical Examination, Medical History, Family Medical history, Treatment Plan, Investigations, Medications (List of medications prescribed
+    at discharge), Follow-up Instructions, Procedures/Lab Tests Conducted (List of procedures or tests conducted during hospital stay, along with results if available), 
+    and Special Instructions.
+        
+    Please ensure that these sections are incorporated into the generated summaries, but refrain from including them as tags in the output. The generated summary should be 
+    properly enclosed within the <RECORD> and </RECORD> tags to ensure it's within the XML format.
+        
+    Here's an example patient summary: 
+        
+    Patient Summary: <discharge summary>        
