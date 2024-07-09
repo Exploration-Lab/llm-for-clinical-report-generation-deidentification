@@ -3,10 +3,8 @@ Install the depedency in requirement.txt
 
 pip install -r requirement.txt
 
-### Open the Jupyter Notebook: 
-Navigate to the directory where notebook is present and open it.
 
-### Specify the Correct Path: 
+Navigate to the directory where notebook is present and open it. 
 Ensure that the dataset path specified in the notebook is accurate and run the notebooks.
 
 ## Main Contribution
