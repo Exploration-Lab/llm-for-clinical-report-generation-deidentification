@@ -1,11 +1,4 @@
 # LLM for Clinical Report Generation-Deidentification
-Install the depedency in requirement.txt 
-
-pip install -r requirement.txt
-
-
-Navigate to the directory where notebook is present and open it. 
-Ensure that the dataset path specified in the notebook is accurate and run the notebooks.
 
 ## Main Contribution
 Our contributions can be summarized as below:
@@ -21,5 +14,15 @@ Our contributions can be summarized as below:
 
 
 The F1 scores for PHI entities, including the overall micro average F1, macro average F1, and weighted average F1 for different combinations of training and test sets.
+
+## Using the Code
+
+Install the depedency in requirement.txt 
+
+pip install -r requirement.txt
+
+
+Navigate to the directory where notebook is present and open it. 
+Ensure that the dataset path specified in the notebook is accurate and run the notebooks.
 
 ## Citation
