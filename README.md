@@ -25,4 +25,7 @@ pip install -r requirement.txt
 Navigate to the directory where notebook is present and open it. 
 Ensure that the dataset path specified in the notebook is accurate and run the notebooks.
 
+## Paper Link
+https://arxiv.org/abs/2407.05887
+
 ## Citation
